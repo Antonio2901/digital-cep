@@ -1,0 +1,24 @@
+{
+    "name": "antonio/digital-cep",
+    "description": "Busca de cep online",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Antonio2901",
+            "email": "antoniowellington542@gmail.com"
+        }
+    ],
+    "require": {
+        "php" : ">= 7.2.0"
+
+    },
+    "autoload": {
+        "psr-0": {
+            "Search": "src/"
+        },
+        "psr-4": {
+            "Antonio\\DigitalCep\\": "src/"
+        }
+
+    }
+}
